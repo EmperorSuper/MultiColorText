@@ -21,8 +21,8 @@ end)
 
 **yAlign**: The alignment of the Y coordinate using [Enums/TEXT_ALIGN](https://wiki.facepunch.com/gmod/Enums/TEXT_ALIGN).
 
-**...**: A [vararg](https://wiki.facepunch.com/gmod/vararg) of colors and strings. Any non string value will be converted to a string with [tostring()](https://wiki.facepunch.com/gmod/Global.tostring).
+**vararg**: A [vararg](https://wiki.facepunch.com/gmod/vararg) of colors and strings. Any non string value will be converted to a string with [tostring()](https://wiki.facepunch.com/gmod/Global.tostring).
 
 ```
-draw.MultiColorText(Font, x, y, xAlign, yAlign, ...)
+draw.MultiColorText(Font, x, y, xAlign, yAlign, vararg)
 ```
