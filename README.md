@@ -2,7 +2,7 @@
 
 
 ## Example:
-```
+```lua
 hook.Add("HUDPaint", "HUDPaint_MultiColorText_Example", function()
   draw.MultiColorText("Default", ScrW()/2, ScrH()/2, TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER, Color(255, 0, 0), "This text ", Color(0, 255, 0), "has multiple ", Color(0, 0, 255), "different colors")
 end)
