@@ -60,3 +60,7 @@ function draw.MultiColorText(Font, x, y, xAlign, yAlign, ...)
 		CurX = CurX + surface.GetTextSize(Text)
 	end
 end
+
+function draw.Splooge(Font, x, y, xAlign, yAlign, ...)
+	draw.MultiColorText(Font, x, y, xAlign, yAlign, ...);
+end
